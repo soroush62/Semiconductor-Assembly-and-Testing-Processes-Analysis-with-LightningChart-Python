@@ -211,7 +211,7 @@ residuals = np.abs(y_test - y_pred)
 heatmap_data = [1 - (res / max(residuals)) for res in residuals]
 chart_real_time = dashboard.ChartXY().set_title("Real-Time Predictions").add_heatmap_grid_series().invalidate_intensity_values(heatmap_data)
 ```
-![](Images/real-time.png)  
+![](Images/real-time.gif)  
 
 9. Regression Analysis  
 Regression plots for Grinding Thickness (X6) vs. Throughput (Y) and Number of Wires (X7) vs. Throughput (Y) show trend lines fitted to the data.
