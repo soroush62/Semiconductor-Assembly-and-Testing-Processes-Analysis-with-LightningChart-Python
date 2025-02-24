@@ -1,29 +1,28 @@
-```markdown
-# ** Vibration Analysis with LightningChart in Python**
+# **Vibration Analysis with LightningChart in Python**
 
-What is Vibration Analysis?
-Brief Introduction to the Theory  
+## **What is Vibration Analysis?**
+### **Brief Introduction to the Theory**  
 Vibration analysis is a method that is used to find mechanical issues in machines using measuring and analyzing their vibrations. It helps to find wear, misalignment, imbalance, and structural faults before facing failures.
 
-What is Machine Vibration?  
+### **What is Machine Vibration?**  
 Vibrations are generated due to rotation and moving of machine parts. Based on intensity and pattern of vibrations, they can be classified to normal or potential issues. These vibrations are studied to monitor machine health.
 
-How are Sensors Used to Collect Data?  
+### **How are Sensors Used to Collect Data?**  
 Sensors, like accelerometers, are placed on machines to measure vibration levels in different directions. The collected data will be processed to understand machine performance and find faults early.
 ________________________________________
 
-LightningChart Python
+## **LightningChart Python** 
 
-Overview of LightningChart Python  
+### **Overview of LightningChart Python**   
 LightningChart is a high-performance data visualization library that offers real-time rendering and different interactive charts that makes it ideal tool for vibration analysis. 
 
-Why Use LightningChart?
+### **Why Use LightningChart?** 
 •	Real-time Performance – Handling millions of data points without lag.
 •	Interactive Visualizations – Zoom, pan, and explore data interactively.
 •	Multi-chart Dashboards – Combine multiple plots in one view.
 •	Customization – Adjust colors, scales, legends, and interactivity.
 
-Features and Chart Types Used in This Project  
+### **Features and Chart Types Used in This Project**   
 For this project, we use LightningChart to visualize machine vibration and throughput analysis  for the following chart types:
 •	Time Series Graphs – Track machine vibration over time.
 •	Heatmaps – Show correlations between different machine features.
@@ -34,11 +33,11 @@ For this project, we use LightningChart to visualize machine vibration and throu
 •	t-SNE & PCA – Reduce dimensionality and visualize machine types.
 ________________________________________
 
-Performance Characteristics  
+## **Performance Characteristics**   
 LightningChart has great performance in processing real-time data without slowdowns. It supports parallel rendering, GPU acceleration, and efficient data streaming  that makes it perfect tool for large-scale industrial applications.
 ________________________________________
 
-Setting Up Python Environment  
+## **Setting Up Python Environment**   
 To use LightningChart, install Python and the necessary libraries.
 
 1. Installing Python and Required Libraries  
@@ -47,7 +46,7 @@ Make sure you have Python installed, then install the required packages:
 ```bash
 
 pip install numpy pandas lightning-charts matplotlib seaborn scikit-learn xgboost
-```
+
 
 2. Overview of Libraries Used  
 •	NumPy & Pandas – Handling and processing numerical data.  
