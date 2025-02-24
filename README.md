@@ -1,5 +1,5 @@
 ```markdown
-# Vibration Analysis with LightningChart in Python
+# ** Vibration Analysis with LightningChart in Python**
 
 What is Vibration Analysis?
 Brief Introduction to the Theory  
