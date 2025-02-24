@@ -2,11 +2,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 import lightningchart as lc
 
-with open(
-    "D:/Computer Aplication/WorkPlacement/Projects/shared_variable.txt", "r"
-) as f:
-    mylicensekey = f.read().strip()
-lc.set_license(mylicensekey)
+lc.set_license("my-license-key")
 
 data = pd.read_csv("Dataset/mixed_categorical_numerical_data.csv")
 
@@ -109,7 +105,7 @@ chart3 = (
 # Add a Line Series
 line_series = chart3.add_line_series()
 line_series.append_samples(x_values=observation_order, y_values=throughput_rate)
-line_series.set_line_color(lc.Color("blue")).set_line_thickness(2)
+line_series.set_line_color(lc.Color(0, 128, 255)).set_line_thickness(2)
 
 # Customize Axes
 chart3.get_default_x_axis().set_title("Observation Order")
