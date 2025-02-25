@@ -45,7 +45,7 @@ Make sure you have Python installed, then install the required packages:
 
 ```bash
 
-pip install numpy pandas lightning-charts matplotlib seaborn scikit-learn xgboost
+pip install numpy pandas lightningchart matplotlib seaborn scikit-learn xgboost
 
 
 2. Overview of Libraries Used  
