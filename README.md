@@ -58,13 +58,13 @@ pip install numpy pandas lightningchart matplotlib seaborn scikit-learn xgboost
 • XGBoost – Predictive modeling and regression analysis.
 ```
 
-3. Setting Up the Development Environment 
-
+3. Setting Up the Development Environment
+3.1. Set up a virtual environment:
 ```bash
 python -m venv rf_analysis_env
 source rf_analysis_env/bin/activate  # On Windows: rf_analysis_env\Scripts\activate
 ```
-2. Use **Visual Studio Code (VSCode)** for a streamlined development experience.
+3.2. Use **Visual Studio Code (VSCode)** for a streamlined development experience.
 
 ---
 
