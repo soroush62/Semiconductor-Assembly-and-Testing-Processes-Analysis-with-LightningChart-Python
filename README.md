@@ -50,11 +50,11 @@ pip install numpy pandas lightningchart matplotlib seaborn scikit-learn xgboost
 
 
 2. Overview of Libraries Used  
-•NumPy & Pandas – Handling and processing numerical data.  
-•LightningChart – Creating real-time, interactive visualizations.  
-•Matplotlib & Seaborn – Additional plotting and statistical analysis.  
-•Scikit-learn – Machine learning and dimensionality reduction.  
-•XGBoost – Predictive modeling and regression analysis.
+• NumPy & Pandas – Handling and processing numerical data.  
+• LightningChart – Creating real-time, interactive visualizations.  
+• Matplotlib & Seaborn – Additional plotting and statistical analysis.  
+• Scikit-learn – Machine learning and dimensionality reduction.  
+• XGBoost – Predictive modeling and regression analysis.
 
 3. Setting Up the Development Environment  
 1. Set up a virtual environment:
