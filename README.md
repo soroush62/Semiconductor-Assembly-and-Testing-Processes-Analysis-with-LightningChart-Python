@@ -66,9 +66,6 @@ python -m venv rf_analysis_env
 source rf_analysis_env/bin/activate  # On Windows: rf_analysis_env\Scripts\activate
 ```
 - Use **Visual Studio Code (VSCode)** for a streamlined development experience.
-
----
-
 ________________________________________
 
 Loading and Processing Data
@@ -103,7 +100,6 @@ data_scaled = scaler.fit_transform(data[['X6', 'X7', 'X8', 'Y']])
 ```python
 data.fillna(data.mean(), inplace=True)
 ```
-
 ________________________________________
 
 Visualizing Data with LightningChart
