@@ -58,7 +58,7 @@ pip install numpy pandas lightningchart matplotlib seaborn scikit-learn xgboost
 
 3. Setting Up the Development Environment  
 1. Set up a virtual environment:
-```bash
+
 python -m venv rf_analysis_env
 source rf_analysis_env/bin/activate  # On Windows: rf_analysis_env\Scripts\activate
 ```
@@ -241,4 +241,3 @@ Conclusion
 This project shows how LightningChart can be used for high-performance data visualization in industrial applications. It helps to analyze throughput variations, find correlations, and track production trends. Additionally, machine learning techniques like XGBoost regression and t-SNE clustering can be used to monitor production performance.
 
 By using Python with LightningChart, NumPy, Pandas, and Scikit-learn, we can visualize complex data in interactive way.
-```
