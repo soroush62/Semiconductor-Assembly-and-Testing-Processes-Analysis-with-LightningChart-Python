@@ -45,20 +45,22 @@ To use LightningChart, install Python and the necessary libraries.
 Make sure you have Python installed, then install the required packages:
 
 ```bash
-
 pip install numpy pandas lightningchart matplotlib seaborn scikit-learn xgboost
+```
 
+2. Overview of Libraries Used
 
-2. Overview of Libraries Used  
+ ```bash
 • NumPy & Pandas – Handling and processing numerical data.  
 • LightningChart – Creating real-time, interactive visualizations.  
 • Matplotlib & Seaborn – Additional plotting and statistical analysis.  
 • Scikit-learn – Machine learning and dimensionality reduction.  
 • XGBoost – Predictive modeling and regression analysis.
+```
 
-3. Setting Up the Development Environment  
-1. Set up a virtual environment:
+3. Setting Up the Development Environment 
 
+```bash
 python -m venv rf_analysis_env
 source rf_analysis_env/bin/activate  # On Windows: rf_analysis_env\Scripts\activate
 ```
